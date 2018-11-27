@@ -1,13 +1,13 @@
-using System.Collections.Generic;
+using System;
 
 namespace Parcels.Models
 {
   public class Parcel
   {
-    private int _height;
-    private int _length;
-    private int _width;
-    private int _weight;
+    private string _height;
+    private string _length;
+    private string _width;
+    private string _weight;
 
     public Parcel (string height, string length, string width, string weight)
     {
